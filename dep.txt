@@ -1,0 +1,14 @@
+------------containers.h------------                   <array> <vector> <iostream> <fstream>
+#include <array>                                           |      |       |     \    /  |
+#include <vector>                                          |      |       |     "io.h"  |
+#include <iostream>                                        |      |       |     /  |    |
+#include "io.h"                                            \      |       |    /   |    |
+                                                            \     |       |   /    |    |
+----------------io.h----------------                         \    |       |  /     |    |
+#include <iostream>                                           "containers.h"       |    |
+#include <fstream>                                                    \            /   /
+                                                                       \          /   /
+--------------main.cpp--------------                                    \        /   /
+#include "containers.h"                                                  \      /   /
+#include "io.h"                                                            main.cpp
+#include <fstream>
