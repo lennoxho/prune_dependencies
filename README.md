@@ -1,5 +1,5 @@
 # prune_dependencies
-Requires:
-  Python 3+
-  igraph
-  Cairo
+Requires:\n
+  Python 3+\n
+  igraph\n
+  Cairo (for plotting)
