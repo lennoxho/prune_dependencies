@@ -1,5 +1,6 @@
 # prune_dependencies
 Requires:  
-  Python 3+  
+  Python 2.7  
+  libclang
   igraph  
   Cairo (for plotting)
