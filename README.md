@@ -1,6 +1,7 @@
 # prune_dependencies
-Requires:  
-  Python 2.7  
-  libclang
-  igraph  
-  Cairo (for plotting)
+__Requires:__
+* Python 2.7
+* libclang
+* igraph
+* Networkx
+* Cairo (for plotting)
